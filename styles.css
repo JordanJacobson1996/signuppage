@@ -1,16 +1,22 @@
 body {
     border-style: solid;
-
+    display: flex;
 }
 
 .display {
     border-style: solid;
     height: 100vh;
-    width: 33vw;
+    width: 40vw;
 }
 
 .content {
     border-style: solid;
     height: 100vh;
-    width: 66vw;
+    width: 60vw;
+}
+
+.contentDiv {
+    width: 100%;
+    height: 33%;
+    border-style: solid;
 }
