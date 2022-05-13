@@ -1,16 +1,13 @@
 body {
-    border-style: solid;
     display: flex;
 }
 
 .display {
-    border-style: solid;
     height: 100vh;
     width: 40vw;
 }
 
 .content {
-    border-style: solid;
     height: 100vh;
     width: 60vw;
 }
