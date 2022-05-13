@@ -1,0 +1,16 @@
+body {
+    border-style: solid;
+
+}
+
+.display {
+    border-style: solid;
+    height: 100vh;
+    width: 33vw;
+}
+
+.content {
+    border-style: solid;
+    height: 100vh;
+    width: 66vw;
+}
