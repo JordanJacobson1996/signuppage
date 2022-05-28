@@ -2,6 +2,10 @@ body {
     display: flex;
 }
 
+input, label {
+    display: block;
+}
+
 .display {
     height: 100vh;
     width: 40vw;
@@ -13,12 +17,32 @@ body {
 .content {
     height: 100vh;
     width: 60vw;
+    background-color: rgba(0, 58, 111, 0.9);
+}
+
+.content p{
+    color: white;
 }
 
 .contentDiv {
     width: 100%;
     height: 33%;
-    border-style: solid;
+}
+
+#formDiv {
+    background-color: whitesmoke;
+}
+
+#formDiv h1 {
+    color:rgba(0, 58, 111);
+}
+
+#formDiv label{
+    color:rgba(0, 58, 111);
+}
+
+.formSection {
+    display: flex;
 }
 
 .logo {
@@ -26,7 +50,7 @@ body {
     height: 200px;
     width: 100%;
     background-color: rgba(0,0,0,0.4);
-    margin-top: 240px;
+    margin-top: 300px;
     align-content: center;
     justify-content: center;
 }
